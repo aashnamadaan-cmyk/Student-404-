@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student 404: Not found — Campus Lost & Found</title>
+  <meta name="theme-color" content="#f6a6c8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">✳</span>
+      <span><strong>Student 404: Not found<span>®</span></strong><small>THE CAMPUS FINDING SOCIETY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navigation">
+      <a href="#home">The clubhouse</a><a href="#report">Pin a note</a><a href="#items">Noticeboard</a><a href="#about">Our little lab</a>
+    </nav>
+    <a class="nav-cta" href="#report">＋ Add to the board</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow tape-label"><span class="pulse"></span> ISSUE NO. 01 · CAMPUS EDITION</div>
+        <h1>Lost it?<br><em>Let’s make it found.</em></h1>
+        <p class="hero-lead">A little lost-and-found corner for the things that go on their own adventures. Pin a note, check the board, and let the campus grapevine do its thing.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#report">Pin your lost / found note <span>↗</span></a>
+          <a class="btn btn-outline" href="#items">Flip through the board <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><span class="proof-icon">♡</span><span><strong>One person’s lost is another’s found.</strong><small>Made with care, caffeine & C.</small></span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a found backpack">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+        <div class="visual-note note-top"><span class="note-dot green"></span> HEY, YOU FOUND A CLUE!</div>
+        <div class="bag-card">
+          <div class="bag-art">🎒<span class="sticker-star">✦</span><span class="sticker-heart">♥</span></div>
+          <div class="bag-lines"><span></span><span></span><span></span></div>
+          <div class="bag-card-bottom"><div><strong>Lost & found club</strong><small>Good stuff finds its way.</small></div><span class="arrow-circle">↗</span></div>
+        </div>
+        <div class="visual-note note-bottom"><span class="tiny-check">✓</span> GOOD PEOPLE, GOOD FINDS</div>
+      </div>
+      <div class="hero-decoration">STUDENT 404 / 2026</div>
+    </section>
+
+    <section class="stats-strip">
+      <div><span class="stat-icon">⌕</span><span><strong>Pin a note</strong><small>Tell the campus what’s missing</small></span></div>
+      <div><span class="stat-icon">✳</span><span><strong>Dig around</strong><small>Browse the noticeboard</small></span></div>
+      <div><span class="stat-icon">♡</span><span><strong>Make a match</strong><small>Return a little happiness</small></span></div>
+    </section>
+
+    <section class="code-postcard" aria-label="C programming backend feature">
+      <div class="postcard-top"><span class="eyebrow">THE SECRET SAUCE</span><span class="postmark">POSTED FROM THE C LAB ✦</span></div>
+      <div class="code-postcard-grid">
+        <div class="code-intro"><span class="sticker-tag">BACK-END BESTIE</span><h2>Small website.<br><em>Real C power.</em></h2><p>This isn’t just a mockup with a cute coat of paint. A C program runs the lost-and-found desk behind the scenes.</p><div class="language-stamps"><span>HTML · THE FACE</span><span>CSS · THE FIT</span><span>JS · THE MESSENGER</span><span class="c-stamp">C · THE ENGINE</span></div></div>
+        <div class="terminal-card"><div class="terminal-bar"><span></span><span></span><span></span><b>student404_server.c</b><i>● LIVE CONCEPT</i></div><div class="terminal-code"><div><span class="ln">01</span><span class="pre">#include <b>&lt;stdio.h&gt;</b></span></div><div><span class="ln">02</span><span class="pre">#define <b>PORT</b> 8080</span></div><div><span class="ln">03</span><span class="pre blank"> </span></div><div><span class="ln">04</span><span class="pre"><em>int</em> main(<em>void</em>) {'{'} </span></div><div><span class="ln">05</span><span class="pre indent"><em>printf</em>(<strong>"Lost? Found? Let's log it!\n"</strong>);</span></div><div><span class="ln">06</span><span class="pre indent"><em>return</em> 0;</span></div><div><span class="ln">07</span><span class="pre">{'}'}</span></div></div><div class="terminal-foot"><span class="terminal-live"></span> C SERVER · REQUESTS IN, RECORDS OUT <span>localhost:8080</span></div></div>
+      </div>
+      <div class="postcard-bottom"><span>✂ ───────────────── tear along the dotted line ───────────────── ✂</span><span>STUDENT 404 / BUILD 001</span></div>
+    </section>
+
+    <section class="report-section section-wrap" id="report">
+      <div class="section-heading">
+        <div class="eyebrow">✂ CUT HERE · NOTE No. 01</div>
+        <h2>Pin it to the board<span class="heading-period">!</span></h2>
+        <p>Fill in the little details. The more clues, the better. Fields marked * are required.</p>
+      </div>
+      <div class="report-layout">
+        <aside class="report-aside">
+          <div class="aside-number">01 <span>/ REPORT</span></div>
+          <h3>Every little clue<br>tells a story.</h3>
+          <p>Think of this as a tiny detective note. Tell us what it looks like and where it was last spotted. Keep passwords and sensitive details off the board.</p>
+          <div class="aside-tip"><span>✦</span><div><strong>Detective tip</strong><small>Specific places help: library, canteen, Block C, or the main turf.</small></div></div>
+          <div class="aside-doodle">⌁</div>
+        </aside>
+        <form id="itemForm" class="report-form">
+          <div class="form-grid">
+            <div class="field"><label for="studentName">Your name <b>*</b></label><input id="studentName" name="studentName" type="text" maxlength="80" placeholder="e.g. Aanya Sharma" required></div>
+            <div class="field"><label for="itemName">Item name <b>*</b></label><input id="itemName" name="itemName" type="text" maxlength="80" placeholder="e.g. Blue water bottle" required></div>
+            <div class="field"><label for="itemType">I want to report <b>*</b></label><select id="itemType" name="itemType" required><option value="">Choose report type</option><option value="Lost">A lost item</option><option value="Found">A found item</option></select></div>
+            <div class="field"><label for="location">Location <b>*</b></label><input id="location" name="location" type="text" maxlength="100" placeholder="e.g. Library, Block C" required></div>
+            <div class="field full"><label for="description">Description <b>*</b></label><textarea id="description" name="description" maxlength="500" rows="4" placeholder="Colour, brand, identifying details..." required></textarea><small class="field-help">A useful description helps someone recognise their belongings.</small></div>
+          </div>
+          <button class="btn btn-primary submit-btn" type="submit">Submit report <span>↗</span></button>
+          <p id="message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="items-section section-wrap" id="items">
+      <div class="items-heading">
+        <div><div class="eyebrow">📌 THE COMMUNITY CORKBOARD</div><h2>Lost, found & fabulous<span class="heading-period">!</span></h2><p>Fresh notes, straight from the C-powered back room.</p></div>
+        <div class="search-box"><span>⌕</span><input type="search" id="searchInput" placeholder="Search items..." aria-label="Search reports"></div>
+      </div>
+      <div class="filter-row"><button class="filter active" data-filter="All">All reports <span id="allCount">0</span></button><button class="filter" data-filter="Lost">Lost <span id="lostCount">0</span></button><button class="filter" data-filter="Found">Found <span id="foundCount">0</span></button><span class="server-label"><span class="pulse"></span> C-POWERED RECORDS</span></div>
+      <div id="itemList" class="item-grid"><div class="loading-state"><span class="loader"></span> Loading reports from C server...</div></div>
+      <p class="items-footnote">A real C program handles the requests and keeps the notes in reports.txt. No pretend backend magic.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-inner">
+        <div class="about-stamp">MADE<br><span>✦</span><br>WITH C</div>
+        <div><div class="eyebrow">✦ PEEK INSIDE THE LITTLE LAB</div><h2>Not just pretty paper.<br><em>There’s C under the hood.</em></h2><p>The scrapbook is the front cover. Underneath, a C server listens on port 8080, handles HTTP requests, validates each note, writes records to reports.txt, and sends JSON back to the page. HTML, CSS and JavaScript make the experience; C does the record-keeping.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✳</span><span><strong>Student 404: Not found<span>®</span></strong><small>THE CAMPUS FINDING SOCIETY</small></span></a><p>Made with paper scraps, good intentions & C programming. · STUDENT 404 2026</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+
+  <script>
+    const form = document.getElementById("itemForm");
+    const message = document.getElementById("message");
+    const itemList = document.getElementById("itemList");
+    const searchInput = document.getElementById("searchInput");
+    let reports = [];
+    let currentFilter = "All";
+
+    document.getElementById("menuToggle").addEventListener("click", () => {
+      document.getElementById("navigation").classList.toggle("show");
+    });
+    document.querySelectorAll("#navigation a").forEach(link => link.addEventListener("click", () => {
+      document.getElementById("navigation").classList.remove("show");
+    }));
+    document.querySelectorAll(".filter").forEach(button => {
+      button.addEventListener("click", () => {
+        currentFilter = button.dataset.filter;
+        document.querySelectorAll(".filter").forEach(b => b.classList.toggle("active", b === button));
+        renderReports();
+      });
+    });
+    searchInput.addEventListener("input", renderReports);
+
+    form.addEventListener("submit", async event => {
+      event.preventDefault();
+      message.className = "";
+      message.textContent = "Sending your report to the C program...";
+      const report = {
+        studentName: document.getElementById("studentName").value.trim(),
+        itemName: document.getElementById("itemName").value.trim(),
+        itemType: document.getElementById("itemType").value,
+        location: document.getElementById("location").value.trim(),
+        description: document.getElementById("description").value.trim()
+      };
+      if (Object.values(report).some(value => !value)) {
+        message.className = "error-message";
+        message.textContent = "Please complete every field.";
+        return;
+      }
+      try {
+        const response = await fetch("/api/reports", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(report)
+        });
+        const result = await response.json();
+        if (!response.ok || !result.success) throw new Error(result.message || "The C server could not save the report.");
+        message.className = "success-message";
+        message.textContent = "✓ Your report was saved by the C program.";
+        form.reset();
+        await loadReports();
+        document.getElementById("items").scrollIntoView({behavior: "smooth"});
+      } catch (error) {
+        message.className = "error-message";
+        message.textContent = "Cannot connect to the C server. Make sure server.exe is running and you opened http://localhost:8080. " + error.message;
+      }
+    });
+
+    async function loadReports() {
+      try {
+        const response = await fetch("/api/reports", {cache: "no-store"});
+        if (!response.ok) throw new Error("Could not load reports");
+        reports = await response.json();
+        renderReports();
+      } catch (error) {
+        itemList.innerHTML = '<div class="empty-state"><div>⚠</div><h3>Cannot load reports</h3><p>Start server.exe and open this website at http://localhost:8080.</p></div>';
+      }
+    }
+
+    function makeText(tag, className, text) {
+      const el = document.createElement(tag);
+      if (className) el.className = className;
+      el.textContent = text;
+      return el;
+    }
+
+    function renderReports() {
+      document.getElementById("allCount").textContent = reports.length;
+      document.getElementById("lostCount").textContent = reports.filter(r => r.itemType === "Lost").length;
+      document.getElementById("foundCount").textContent = reports.filter(r => r.itemType === "Found").length;
+      const query = searchInput.value.trim().toLowerCase();
+      const shown = reports.filter(r => {
+        const matchesFilter = currentFilter === "All" || r.itemType === currentFilter;
+        const haystack = [r.studentName, r.itemName, r.itemType, r.location, r.description].join(" ").toLowerCase();
+        return matchesFilter && haystack.includes(query);
+      });
+      itemList.replaceChildren();
+      if (!shown.length) {
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.append(makeText("div", "empty-icon", reports.length ? "⌕" : "✳"));
+        empty.append(makeText("h3", "", reports.length ? "No matching reports" : "The noticeboard is waiting"));
+        empty.append(makeText("p", "", reports.length ? "Try a different search or filter." : "Be the first to submit a lost or found item."));
+        itemList.append(empty);
+        return;
+      }
+      shown.forEach(report => {
+        const card = document.createElement("article");
+        card.className = "item-card";
+        const icon = makeText("div", "item-art", report.itemType === "Lost" ? "⌕" : "✦");
+        const details = document.createElement("div");
+        details.className = "item-info";
+        details.append(makeText("span", "status " + report.itemType.toLowerCase(), report.itemType.toUpperCase()));
+        details.append(makeText("h3", "", report.itemName));
+        details.append(makeText("p", "item-location", "⌖  " + report.location));
+        details.append(makeText("p", "item-description", report.description));
+        details.append(makeText("p", "item-reporter", "Reported by " + report.studentName));
+        card.append(icon, details);
+        itemList.append(card);
+      });
+    }
+    loadReports();
+  </script>
+</body>
+</html>

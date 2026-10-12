@@ -1,0 +1,18 @@
+Student: kanishka
+Item: diary
+Type: Lost
+Location: library
+Description: small
+------------------------------
+Student: mahi
+Item: charger
+Type: Found
+Location: main turf
+Description: white charger
+------------------------------
+Student: David
+Item: blue water bottle
+Type: Lost
+Location: b block basement
+Description: a big blue water bottle
+------------------------------
